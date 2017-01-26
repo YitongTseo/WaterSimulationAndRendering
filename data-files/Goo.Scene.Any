@@ -1,0 +1,187 @@
+
+/* -*- c++ -*- */
+{ 
+    entities = { 
+        apple_1 = VisibleEntity { 
+            canChange = false; 
+            frame = CFrame::fromXYZYPRDegrees(0, -0.5, 0, 0, 0, 0 ); 
+            model = "bunnyModel"; 
+        }; 
+        
+        camera = Camera { 
+            depthOfFieldSettings = DepthOfFieldSettings { 
+                enabled = false; 
+                farBlurRadiusFraction = 0.01; 
+                farBlurryPlaneZ = -120; 
+                farSharpPlaneZ = -11; 
+                focusPlaneZ = -10; 
+                lensRadius = 0.01; 
+                model = "ARTIST"; 
+                nearBlurRadiusFraction = 0.01; 
+                nearBlurryPlaneZ = -0.1; 
+                nearSharpPlaneZ = -1; 
+            }; 
+            
+            filmSettings = FilmSettings { 
+                antialiasingEnabled = true; 
+                antialiasingFilterRadius = 0; 
+                antialiasingHighQuality = false; 
+                bloomRadiusFraction = 0.009; 
+                bloomStrength = 0.1; 
+                debugZoom = 1; 
+                effectsEnabled = true; 
+                gamma = 2.2; 
+                sensitivity = 0.6; 
+                toneCurve = Spline { 
+                    control = ( 0, 0.0787234, 0.306383, 0.808511, 0.925532 ); 
+                    extrapolationMode = "LINEAR"; 
+                    finalInterval = -1; 
+                    interpolationMode = "CUBIC"; 
+                    time = ( 0, 0.169565, 0.32174, 0.743478, 1 ); 
+                }; 
+                
+                vignetteBottomStrength = 0.05; 
+                vignetteSizeFraction = 0.17; 
+                vignetteTopStrength = 0.5; 
+            }; 
+            
+            frame = CFrame::fromXYZYPRDegrees(-2.5949, 1.2859, 3.782, -31.129, -8.0217, 0 ); 
+            motionBlurSettings = MotionBlurSettings { 
+                cameraMotionInfluence = 0.5; 
+                enabled = false; 
+                exposureFraction = 0.75; 
+                maxBlurDiameterFraction = 0.1; 
+                numSamples = 15; 
+            }; 
+            
+            projection = Projection { 
+                farPlaneZ = -50; 
+                fovDegrees = 60; 
+                fovDirection = "VERTICAL"; 
+                nearPlaneZ = -0.1; 
+                pixelOffset = Vector2(0, 0 ); 
+            }; 
+            
+            visualizationScale = 1; 
+        }; 
+        
+        plumbing_elbow = VisibleEntity { 
+            frame = CFrame::fromXYZYPRDegrees(-1.32885, -1.33869, 1.7339, -4.72623, 35.1541, -92.1766 ); 
+            model = "plumbing_elbow0"; 
+        }; 
+        
+        roomlight = Light { 
+            attenuation = ( 0.0001, 0, 1 ); 
+            bulbPower = Color3(50000 ); 
+            canChange = false; 
+            castsShadows = true; 
+            enabled = true; 
+            frame = CFrame::fromXYZYPRDegrees(0, 46.6, 0, -0.000219986, -88.6958, -180 ); 
+            nearPlaneZLimit = -30; 
+            producesDirectIllumination = true; 
+            producesIndirectIllumination = true; 
+            shadowMapSize = Vector2int16(4096, 4096 ); 
+            spotHalfAngleDegrees = 15; 
+            spotSquare = true; 
+            type = "SPOT"; 
+        }; 
+        
+    }; 
+    
+    lightingEnvironment = LightingEnvironment { 
+        ambientOcclusionSettings = AmbientOcclusionSettings { 
+            bias = 0.001; 
+            blurRadius = 4; 
+            blurStepSize = 2; 
+            depthPeelSeparationHint = 0.02; 
+            edgeSharpness = 1; 
+            enabled = false; 
+            highQualityBlur = true; 
+            intensity = 2; 
+            monotonicallyDecreasingBilateralWeights = false; 
+            numSamples = 15; 
+            packBlurKeys = false; 
+            radius = 1; 
+            temporalFilterSettings = TemporalFilter::Settings { 
+                falloffEndDistance = 0.07; 
+                falloffStartDistance = 0.05; 
+                hysteresis = 0; 
+            }; 
+            
+            temporallyVarySamples = false; 
+            useDepthPeelBuffer = false; 
+            useNormalBuffer = true; 
+            useNormalsInBlur = true; 
+            zStorage = "HALF"; 
+        }; 
+        
+        environmentMap = Texture::Specification { 
+            encoding = Texture::Encoding { 
+                readMultiplyFirst = 1; 
+            }; 
+            
+            filename = "cubemap/whiteroom/whiteroom-*.png"; 
+        }; 
+        
+    }; 
+    
+    models = { 
+        appleModel = ArticulatedModel::Specification { 
+            filename = "low-poly-sphere.obj"; 
+        }; 
+        
+        bunnyModel = ArticulatedModel::Specification { 
+            filename = "data-files/bunny.obj"; 
+            scale = 10; 
+        }; 
+        
+        plumbing_elbow0 = ArticulatedModel::Specification { 
+            alphaFilter = "DETECT"; 
+            cachable = true; 
+            cleanGeometrySettings = ArticulatedModel::CleanGeometrySettings { 
+                allowVertexMerging = true; 
+                forceComputeNormals = false; 
+                forceComputeTangents = false; 
+                forceVertexMerging = true; 
+                maxEdgeLength = inf; 
+                maxNormalWeldAngleDegrees = 8; 
+                maxSmoothAngleDegrees = 65; 
+            }; 
+            
+            filename = "C:\\Users\\cs371\\Downloads\\plumbing elbow.3DS"; 
+            hairOptions = HairOptions { 
+                separateSurfacePerStrand = false; 
+                sideCount = 5; 
+                strandRadiusMultiplier = 1; 
+            }; 
+            
+            heightfieldOptions = HeightfieldOptions { 
+                generateBackfaces = false; 
+                textureScale = Vector2(1, 1 ); 
+            }; 
+            
+            meshMergeOpaqueClusterRadius = "ALL"; 
+            meshMergeTransmissiveClusterRadius = "NONE"; 
+            objOptions = OBJOptions { 
+                stripRefraction = false; 
+                texCoord1Mode = "NONE"; 
+            }; 
+            
+            preprocess = { moveCenterToOrigin(); transformGeometry(all(), Matrix4::scale(1.3 ) ) }; 
+            refractionHint = "DYNAMIC_FLAT"; 
+            stripLightMapCoords = false; 
+            stripLightMaps = false; 
+            stripMaterials = false; 
+            stripVertexColors = false; 
+        }; 
+        
+        sphereModel = ArticulatedModel::Specification { 
+            filename = "low-poly-sphere.obj"; 
+            preprocess = { moveCenterToOrigin(); transformGeometry(all(), Matrix4::scale(0.25 ) ) }; 
+            scale = 0.1; 
+        }; 
+        
+    }; 
+    
+    name = "goo"; 
+} 

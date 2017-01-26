@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MCubes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PhysFlex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WaterModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PathTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\flex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MCubes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PhysFlex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WaterModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\flexExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PathTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doxyfile" />
+    <None Include="journal\journal.md.html" />
+    <None Include="mainpage.dox" />
+    <None Include="data-files\test.Scene.Any">
+      <Filter>Scene Files</Filter>
+    </None>
+    <None Include="data-files\faucet.Scene.Any">
+      <Filter>Scene Files</Filter>
+    </None>
+    <None Include="data-files\particles.Scene.Any">
+      <Filter>Scene Files</Filter>
+    </None>
+    <None Include="data-files\Collision.Scene.Any">
+      <Filter>Scene Files</Filter>
+    </None>
+    <None Include="data-files\Goo.Scene.Any">
+      <Filter>Scene Files</Filter>
+    </None>
+    <None Include="data-files\lightHouse.Scene.Any">
+      <Filter>Scene Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4b4419d9-470e-409a-b407-8251ee16bbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d951d6fd-bc72-486c-88b0-ebc79231442b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene Files">
+      <UniqueIdentifier>{79636266-edc7-47bf-80da-63329e2d927d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
