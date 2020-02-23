@@ -7,7 +7,7 @@ mss3@williams.edu, rkj2@williams.edu, kyt2@williams.edu, and nde1@williams.edu
 
 ![No man is an Island. Simulated with our particle system. Rendered using the G3D default renderer.](/doc-files/contrastLighthouse.jpg)
 
-**“She felt... how life, from being made up of little separate incidents which one lived one by one, became curled and whole like a wave which bore one up with it and threw one down with it, there, with a dash on the beach.” **
+*“She felt... how life, from being made up of little separate incidents which one lived one by one, became curled and whole like a wave which bore one up with it and threw one down with it, there, with a dash on the beach.”*
 
 ― Virginia Woolf, To the Lighthouse
 
