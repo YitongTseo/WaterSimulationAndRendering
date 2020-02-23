@@ -13,7 +13,7 @@ mss3@williams.edu, rkj2@williams.edu, kyt2@williams.edu, and nde1@williams.edu
 
 
 
-![Video](/doc-files/video_screenshot.png)](https://www.youtube.com/watch?v=FS6nkQwO7pY)
+[![Video](/doc-files/video_screenshot.png)](https://www.youtube.com/watch?v=FS6nkQwO7pY)
 
 
 
