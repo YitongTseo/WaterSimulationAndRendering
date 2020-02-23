@@ -7,8 +7,14 @@ mss3@williams.edu, rkj2@williams.edu, kyt2@williams.edu, and nde1@williams.edu
 
 ![No man is an Island. Simulated with our particle system. Rendered using the G3D default renderer.](/doc-files/contrastLighthouse.jpg)
 
-“She felt... how life, from being made up of little separate incidents which one lived one by one, became curled and whole like a wave which bore one up with it and threw one down with it, there, with a dash on the beach.” 
+**“She felt... how life, from being made up of little separate incidents which one lived one by one, became curled and whole like a wave which bore one up with it and threw one down with it, there, with a dash on the beach.” **
+
 ― Virginia Woolf, To the Lighthouse
+
+
+
+![Video](/doc-files/video_screenshot.png)](https://www.youtube.com/watch?v=FS6nkQwO7pY)
+
 
 
 # Introduction
@@ -150,35 +156,35 @@ Rendering of water with our path-tracer with 5 bounces and 32 paths/pixel. Demon
 
 Overfloweth the Chalice of Knowledge
 
-![](/doc-files/keep3.mp4)
+[](/doc-files/keep3.mp4)
 
 Any Port in the Storm
 
-![](/doc-files/keep7.mp4)
+[](/doc-files/keep7.mp4)
 
 Love, War, and Everything in Between
 
-![](/doc-files/keep8.mp4)
+[](/doc-files/keep8.mp4)
 
 Cool Marbles
 
-![](/doc-files/keep9.mp4)
+[](/doc-files/keep9.mp4)
 
 Versaille Amplified
 
-![](/doc-files/keep4.mp4)
+[](/doc-files/keep4.mp4)
 
 Death Cab for Cutie
 
-![](/doc-files/keep6.mp4)
+[](/doc-files/keep6.mp4)
 
 Nickelodeon Nostalgia
 
-![](/doc-files/keep5.mp4)
+[](/doc-files/keep5.mp4)
 
 Under Pressure ( Pushing Down on Me ( Pushing Down on ME))
 
-![](/doc-files/keep1.mp4 width=500)
+[](/doc-files/keep1.mp4)
 
 To the Lighthouse 
 
@@ -186,7 +192,7 @@ To the Lighthouse
 
 \The Flood
 
-![](/doc-files/sponza.png)
+[](/doc-files/sponza.png)
 
 
 ## Self Evaluation
